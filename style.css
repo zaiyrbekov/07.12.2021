@@ -1,0 +1,772 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #ffffff;
+}
+* {
+  box-sizing: border-boxs;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex: 1 0 0;
+}
+.col-auto {
+  flex: 0 0 auto;
+}
+.col-1 {
+  flex: 0 0 8.33333333%;
+}
+.col-2 {
+  flex: 0 0 16.66666667%;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-4 {
+  flex: 0 0 33.3333333%;
+}
+.col-5 {
+  flex: 0 0 41.66666667%;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
+.col-7 {
+  flex: 0 0 58.333333333%;
+}
+.col-8 {
+  flex: 0 0 66.66666667%;
+}
+.col-9 {
+  flex: 0 0 75%;
+}
+.col-10 {
+  flex: 0 0 83.33333333%;
+}
+.col-11 {
+  flex: 0 0 96.66666667%;
+}
+.col-12 {
+  flex: 0 0 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 25px;
+}
+nav ul {
+  display: flex;
+  flex-grow: 1;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 15px;
+}
+nav ul li:first-child a {
+  color: #dc780b;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+nav ul li a {
+  color: #150c01;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  opacity: 0.6;
+}
+
+nav .buttn a {
+  padding: 10px;
+
+  color: #ffffff;
+  background: #dc780b;
+
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+nav .buttn {
+  margin-top: 10px;
+}
+
+.looking {
+  margin-top: 174px;
+}
+.pool {
+  width: 555px;
+  height: 43px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+
+.poool {
+  display: block;
+  width: 555px;
+  height: 161px;
+
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48.83px;
+  line-height: 58px;
+
+  color: #150c01;
+}
+.img-first {
+  margin-top: -30px;
+  margin-left: -5px;
+}
+.img-sekond {
+  /* background: #dc780b;
+  opacity: 0.05; */
+  filter: blur(20px);
+  transform: rotate(6.27deg);
+  margin-top: -190px;
+}
+.few {
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+  background: #dc780b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.feew {
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-left: 10px;
+  color: #dc780b;
+  /* opacity: 0.1;
+  border: 1.5px solid #dc780b;
+  box-sizing: border-box; */
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #f3e9de;
+}
+.second {
+  margin-top: 50px;
+}
+.deer {
+  /* margin-top: 70px; */
+  text-align: center;
+}
+.deer span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #dc780b;
+
+  opacity: 0.7;
+}
+.deer h2 {
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 35px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #150c01;
+}
+
+.vew {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+
+  margin-top: 66px;
+}
+
+.vew span {
+  width: 153px;
+  height: 24px;
+
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height, or 96% */
+
+  margin-top: 33px;
+
+  color: #150c01;
+}
+.vew p {
+  width: 300px;
+  height: 68px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #150c01;
+
+  opacity: 0.7;
+
+  margin-top: 15px;
+}
+
+.coll-left {
+  margin-top: -135px;
+  margin-left: 98px;
+}
+.coll-left .book-1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #dc780b;
+
+  opacity: 0.7;
+  margin-top: 216px;
+}
+.coll-left h2 {
+  width: 447px;
+  /* height: 112px; */
+
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 41px;
+  /* or 130% */
+
+  color: #150c01;
+  margin-top: 10px;
+}
+.coll-left p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #150c01;
+  opacity: 0.7;
+  margin-top: 25px;
+}
+.coll-left .book-2 {
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  background: #dc780b;
+  border-radius: 5px;
+  margin-top: 59px;
+  cursor: pointer;
+}
+
+.topp {
+  margin-top: -700px;
+}
+
+.menu-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+
+  margin-top: 45px;
+}
+.menu-center span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #dc780b;
+
+  opacity: 0.7;
+}
+.menu-center h2 {
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 24px;
+  /* identical to box height, or 77% */
+
+  display: flex;
+  align-items: center;
+
+  color: #150c01;
+}
+.menu-center p {
+  width: 748px;
+  height: 64px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+
+.card {
+  width: 360px;
+  height: 446px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 75px 10px 10px 10px;
+}
+.img-center {
+  border-radius: 76px 10px 76px 0px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+}
+.card-top span {
+  padding: 21px 25px;
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height, or 96% */
+
+  display: flex;
+  align-items: center;
+
+  color: #150c01;
+}
+.card p {
+  width: 310px;
+  height: 38px;
+
+  padding: 21px 25px;
+  margin-top: -20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+
+.card-top span:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-top span:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.card-bottom span {
+  margin: 0px 25px;
+}
+.card-bottom span:first-child {
+  display: flex;
+  justify-content: flex-start;
+
+  color: #ffffff;
+  font-size: 18px;
+  padding: 7px;
+
+  background-color: #dc780b;
+  border-radius: 5px;
+  margin-top: -13px;
+}
+
+.card-bottom span:last-child {
+  display: flex;
+  justify-content: flex-end;
+
+  color: #dc780b;
+  margin-top: -5px;
+}
+
+.btnn {
+  width: 142px;
+  height: 42px;
+  color: #dc780b;
+
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f3e9de;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  cursor: pointer;
+  margin: 61px auto 0px auto;
+}
+.after-menu {
+  /* width: 1440px; */
+  height: 518px;
+
+  background: #faf1e8;
+  /* opacity: 0.4; */
+  margin-top: 199px;
+
+  display: flex;
+  align-items: center;
+}
+.container-after-menu {
+  width: 555px;
+  height: 275px;
+  margin-left: 247px;
+}
+.container-after-menu span {
+  width: 555px;
+  height: 16px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #dc780b;
+
+  opacity: 0.7;
+}
+.container-after-menu h2 {
+  width: 555px;
+  height: 72px;
+
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 41px;
+  /* or 130% */
+
+  color: #150c01;
+}
+.container-after-menu p {
+  width: 555px;
+  height: 66px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+.buttons {
+  display: flex;
+
+  width: 163px;
+  height: 48px;
+}
+.png-shot {
+  position: absolute;
+  width: 323.14px;
+  height: 651px;
+  left: 872px;
+  top: 3467px;
+
+  background: #c4c4c4;
+  border-radius: 59px;
+}
+.two-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 45px;
+  margin-left: -40px;
+}
+.two-img > img:last-child {
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: -55px;
+}
+.p-center {
+  width: 506px;
+  height: 59px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  margin: 41px auto 0 auto;
+  color: #000000;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+}
+.stars i {
+  color: #dc780b;
+}
+.stars i:last-child {
+  color: #c4c4c4;
+}
+.stars-two i:nth-child(4) {
+  color: #c4c4c4;
+}
+.starss i:nth-child(3) {
+  color: #c4c4c4;
+}
+.icons-angle {
+  margin: -33px 315px 0px 315px;
+}
+.icons-angle i:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -16px;
+}
+.icons-angle i:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0.5;
+  margin-top: 16px;
+}
+.upper {
+  /* width: 168px;
+height: 19px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-top: 32px;
+}
+.uper {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400s;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  opacity: 0.7;
+  margin-top: 6px;
+}
+.fon-pink {
+  height: 448px;
+
+  margin-top: 120px;
+  background: #faf1e8;
+  /* opacity: 0.1; */
+}
+.fon-pink div:first-child {
+  width: 94px;
+  height: 19px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #dc780b;
+
+  opacity: 0.6;
+  padding-top: 115px;
+  margin: 115px auto 0px auto;
+}
+.fon-pink div:nth-child(2) {
+  width: 749px;
+  height: 61px;
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 41px;
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #150c01;
+
+  margin: 34px auto 0px auto;
+}
+
+.type-put {
+  width: 594px;
+  height: 75px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 41px;
+  /* or 226% */
+
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+
+  color: #ffffff;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+.type-btn {
+  width: 156px;
+  height: 75px;
+
+  background: #dc780b;
+  border-radius: 10px;
+  border: none;
+  margin-left: -14px;
+}
+input {
+  border: none;
+  background: none;
+  outline: none;
+  padding-left: 18px;
+}
+.type-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 46px;
+}
+footer {
+ 
+  height: 429px;
+
+  background: #252525;
+}
